@@ -52,4 +52,3 @@ class HabboFont:
             self.image.paste(image_letter, (current_pos, 0), image_letter)
             current_pos = current_pos + image_letter.size[0] - 10
         self.image.save("test/" + self.get_text() + "." + image_format)
-        print("Your image has been saved successfully! :p")
